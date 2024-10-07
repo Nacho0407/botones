@@ -1,0 +1,9 @@
+
+a {
+    text-decoration: none;   
+    background: linear-gradient(to top left, rgb(245, 102, 19), #ec8530) ;
+    display:flex;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+}
