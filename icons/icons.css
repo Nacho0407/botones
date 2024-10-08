@@ -1,9 +1,58 @@
 
-a {
+#a1 {
     text-decoration: none;   
-    background: linear-gradient(to top left, rgb(245, 102, 19), #ec8530) ;
+    background: linear-gradient(to top left, hsl(19, 98%, 37%), #ec8530) ;
     display:flex;
     width: fit-content;
     align-items: center;
     gap: 10px;
+    padding: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+#a1:hover{
+    opacity: 0.8;
+    scale: 1.1;
+}
+#a2 {
+    text-decoration: none;   
+    background: linear-gradient(to top left, hwb(244 24% 1%), hsl(244, 97%, 64%)) ;
+    display:flex;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+#a2:hover{
+    opacity: 0.8;
+    scale: 1.1;
+}
+#a3 {
+    text-decoration: none;   
+    background: linear-gradient(to top left, hwb(240 90% 9%), hsl(0, 0%, 61%)) ;
+    display:flex;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+#a3:hover{
+    opacity: 0.8;
+    scale: 1.1;
 }
